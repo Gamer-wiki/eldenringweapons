@@ -17,7 +17,7 @@ let currentCategoryButton = null;
 let allWeapons = [];
 
 // Load JSON
-fetch('/weapons.json')
+fetch('/eldenringweapons/weapons.json')
     .then(res => res.json())
     .then(data => {
 
